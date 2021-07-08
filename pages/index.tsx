@@ -41,8 +41,7 @@ const Home: NextPage = () => {
       </Head>
       <h1 className="text-4xl font-bold">Simon Bel</h1>
       <div className="mb-5 font-medium text-gray-600">
-        Freelance Software Consultant focusing on React, React Native, GraphQL,
-        Node.js & PostgreSQL
+      Hi 👋 I’m a recent business school undergraduate, passionate about Indy design and development. I like to learn about product growth and everything that has to do with launching a new product.
       </div>
       <h2 className="mt-8 mb-3 text-2xl font-bold">Projects</h2>
       <motion.div
@@ -63,11 +62,11 @@ const Home: NextPage = () => {
         className="grid grid-cols-1 gap-3 sm:grid-cols-3"
       >
         <Project
-          name="Splitbee"
-          color="#FFF0D3"
-          url="https://splitbee.io/"
+          name="Stick It"
+          color="#4EE0A7"
+          url="https://www.stickitapp.io/"
           style={{ scale }}
-          description="Splitbee is an analytics and A/B testing tool that focuses on usability and performance"
+          description="Sticky Habits is an app that pairs with Habit Stickers to help you build lasting habits."
           logo={
             <img
               className="w-16 transition-transform duration-500 transform group-hover:scale-110"
@@ -77,19 +76,13 @@ const Home: NextPage = () => {
           tags={
             <div className="mt-2">
               <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-gray-100 text-gray-800 mr-2">
-                React
+                SwiftUI
               </span>
               <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-blue-100 text-blue-800 mr-2">
-                TimescaleDB
+                Firebase
               </span>
               <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-indigo-100 text-indigo-800 mr-2">
-                GraphQL
-              </span>
-              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-green-100 text-green-800 mr-2">
-                Cloudflare Workers
-              </span>
-              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-orange-100 text-orange-800 mr-2">
-                Redis
+                Webflow
               </span>
             </div>
           }
