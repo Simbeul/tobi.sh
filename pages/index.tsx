@@ -144,7 +144,7 @@ const Home: NextPage = () => {
             <Position
               company="Accenture"
               position="Strategy & Consulting Summer Analyst"
-              description="Helping one of Canada's largest financial institutions integrate smart banking solutions."
+              description="Helping financial institutions integrate smart banking solutions"
               url="https://www.accenture.com/ca-en"
               from="Jun. 2020"
               to="Aug. 2020"
