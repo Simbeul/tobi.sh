@@ -5,6 +5,7 @@ import { motion, useViewportScroll, useTransform } from "framer-motion";
 
 import { Project } from "../components/project";
 import { Position } from "../components/position";
+import { Experiment } from "../components/experiment";
 
 const Home: NextPage = () => {
   const { scrollYProgress } = useViewportScroll();
@@ -204,13 +205,26 @@ const Home: NextPage = () => {
           </tbody>
         </table>
       </div>
+      <h2 className="mt-8 mb-3 text-2xl font-bold">Experiments</h2>
+      <div className="inline-block w-full max-w-full overflow-hidden align-middle border-b border-gray-200 shadow sm:rounded-lg last:border-b-0">
+        <table className="w-full">
+          <tbody className="bg-white">
+            <Experiment
+              experiment="Daily Fact Bot"
+              description="A simple SMS-powered app that sends users a random fact through API, daily."
+              url=""
+              tech="Node.JS + Firebase + Twilio"
+            />  
+          </tbody>
+        </table>  
+      </div>
       <h2 className="mt-8 mb-3 text-2xl font-bold">Contact</h2>
       <div className="text-base text-gray-900">
-        If you are interested in working with me just drop me a short mail at{" "}
+        If you are interested in reaching out to me just drop me a short mail at{" "}
         <b>simonpierrebel@gmail.com</b>
       </div>
       <div className="flex justify-center mt-8 mb-5 font-medium text-gray-600">
-        <span className="mx-2 font-bold">·</span>
+        {/* <span className="mx-2 font-bold">·</span> */}
         <a
           data-splitbee-event="Click LinkedIn"
           target="_blank"
@@ -218,7 +232,7 @@ const Home: NextPage = () => {
         >
           LinkedIn
         </a>
-        <span className="mx-2 font-bold">·</span>
+        {/* <span className="mx-2 font-bold">·</span> */}
         {/* <a
           data-splitbee-event="Click Resume"
           target="_blank"
