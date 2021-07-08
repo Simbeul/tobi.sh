@@ -13,11 +13,11 @@ const Home: NextPage = () => {
   return (
     <div className="container mt-10">
       <Head>
-        <title>Tobias Lins</title>
+        <title>Simon Bel</title>
         <link rel="manifest" href="/static/manifest.json" />
         <meta
           name="description"
-          content="Tobias Lins - React, React Native, Node.js & GraphQL Consultant"
+          content="Simon Bel - Innovation & Tech Enthusiast"
         />
         <script async src="https://cdn.splitbee.io/sb.js"></script>
         <script
@@ -26,10 +26,10 @@ const Home: NextPage = () => {
             __html: `{
   "@context": "https://schema.org/",
   "@type": "Person",
-  "name": "Tobias Lins",
-  "url": "https://tobi.sh",
+  "name": "Simon Bel",
+  "url": "https://www.simonbel.com/",
   "image": "https://pbs.twimg.com/profile_images/1264167841827360768/rbrgZalT_400x400.jpg",
-  "sameAs": "https://twitter.com/linstobias",
+  "sameAs": "https://twitter.com/TheSimonBel",
   "jobTitle": "Founder",
   "worksFor": {
     "@type": "Organization",
@@ -157,12 +157,12 @@ const Home: NextPage = () => {
               }
             />
             <Position
-              company="d:code:it"
-              position="Fullstack Software Engineer"
-              description="Building Axcept.io, a visual testing platform"
+              company="Autodesk"
+              position="Campaign Marketing Intern"
+              description="Working on the customer acquisition strategy for AutoCAD"
               url=""
-              from="Sept. 2018"
-              to="July 2019"
+              from="Jan. 2020"
+              to="May 2020"
               logo={
                 <img
                   className="w-10 h-10"
@@ -172,12 +172,27 @@ const Home: NextPage = () => {
               }
             />
             <Position
-              company="mPAY24"
-              position="Software Engineer"
-              description="Working on the complete platform, website & SDKs"
+              company="Cossette Media"
+              position="Assistant Media Planner"
+              description="Worked on media campaigns for brands like Air Canada"
               url=""
-              from="Sept. 2014"
-              to="June 2018"
+              from="May 2019"
+              to="Dec. 2019"
+              logo={
+                <img
+                  className="w-10"
+                  src={`/mpay24.svg`}
+                  alt="d:code:it logo"
+                />
+              }
+            />
+            <Position
+              company="Busbud"
+              position="Marketing & Growth Associate"
+              description="Worked on scaling experimental marketing & growth channels"
+              url=""
+              from="May 2018"
+              to="June 2019"
               logo={
                 <img
                   className="w-10"
@@ -192,37 +207,30 @@ const Home: NextPage = () => {
       <h2 className="mt-8 mb-3 text-2xl font-bold">Contact</h2>
       <div className="text-base text-gray-900">
         If you are interested in working with me just drop me a short mail at{" "}
-        <b>me@tobi.sh</b>
+        <b>simonpierrebel@gmail.com</b>
       </div>
       <div className="flex justify-center mt-8 mb-5 font-medium text-gray-600">
-        <a
-          data-splitbee-event="Click Github"
-          target="_blank"
-          href="https://github.com/tobiaslins"
-        >
-          GitHub
-        </a>
         <span className="mx-2 font-bold">·</span>
         <a
           data-splitbee-event="Click LinkedIn"
           target="_blank"
-          href="https://www.linkedin.com/in/tobias-lins-971082109/"
+          href="https://www.linkedin.com/in/simonbel/"
         >
           LinkedIn
         </a>
         <span className="mx-2 font-bold">·</span>
-        <a
+        {/* <a
           data-splitbee-event="Click Resume"
           target="_blank"
-          href="https://stackoverflow.com/story/tobiaslins"
+          href=""
         >
           Resume
-        </a>
+        </a> */}
         <span className="mx-2 font-bold">·</span>
         <a
           data-splitbee-event="Click Twitter"
           target="_blank"
-          href="https://twitter.com/linstobias"
+          href="https://twitter.com/TheSimonBel"
         >
           Twitter
         </a>
