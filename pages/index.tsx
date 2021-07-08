@@ -88,11 +88,11 @@ const Home: NextPage = () => {
           }
         />
         <Project
-          name="Upclimb"
-          url="https://apps.apple.com/br/app/upclimb/id1479219726?l=en"
+          name="Quill"
+          url="https://apps.apple.com/ca/app/quill-one-poem-a-day/id1547047768"
           style={{ scale }}
-          color="rgba(180, 216, 165, 0.23)"
-          description="A mobile app for climbers that provides workouts and tracking."
+          color="#323232"
+          description="An IOS app that keeps you inspired by sending you one poem a day."
           logo={
             <img
               className="w-16 transition-transform duration-500 transform group-hover:scale-110"
@@ -102,23 +102,20 @@ const Home: NextPage = () => {
           tags={
             <div className="mt-2">
               <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-gray-100 text-gray-800 mr-2">
-                React Native
+                SwiftUI
               </span>
               <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-blue-100 text-blue-800 mr-2">
-                Sanity
-              </span>
-              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-indigo-100 text-indigo-800 mr-2">
-                GraphQL
+                CoreData
               </span>
             </div>
           }
         />
         <Project
-          name="Mobile Hub for Lisk"
-          url="https://apps.apple.com/at/app/mobile-hub-for-lisk/id1390358799"
+          name="Filio Studio"
+          url="https://filio.studio/"
           style={{ scale }}
-          color="rgba(108, 186, 248, 0.2)"
-          description="An iOS and Android App for the Lisk Blockchain. Provides a wallet and an blockchain explorer"
+          color="#5F75FF"
+          description="A Design & Consultancy Studio. We help founders create their dream products."
           logo={
             <img
               className="w-16 transition-transform duration-500 transform group-hover:scale-110"
@@ -128,10 +125,13 @@ const Home: NextPage = () => {
           tags={
             <div className="mt-2">
               <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-gray-100 text-gray-800 mr-2">
-                React Native
+                Figma
               </span>
               <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-blue-100 text-blue-800 mr-2">
-                LiskJS
+                Protopie
+              </span>
+              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-blue-100 text-blue-800 mr-2">
+                Webflow
               </span>
             </div>
           }
@@ -142,11 +142,12 @@ const Home: NextPage = () => {
         <table className="w-full">
           <tbody className="bg-white">
             <Position
-              company="Tobias Lins"
-              position="Freelance Consultant, System Architect"
-              description="Helping clients develop React & Node applications"
-              url=""
-              from="June 2019"
+              company="Accenture"
+              position="Strategy & Consulting Summer Analyst"
+              description="Helping one of Canada's largest financial institutions integrate smart banking solutions."
+              url="https://www.accenture.com/ca-en"
+              from="Jun. 2020"
+              to="Aug. 2020"
               logo={
                 <img
                   className="w-10 h-10"
