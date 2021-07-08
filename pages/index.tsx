@@ -39,7 +39,7 @@ const Home: NextPage = () => {
           }}
         ></script>
       </Head>
-      <h1 className="text-4xl font-bold">Tobias Lins</h1>
+      <h1 className="text-4xl font-bold">Simon Bel</h1>
       <div className="mb-5 font-medium text-gray-600">
         Freelance Software Consultant focusing on React, React Native, GraphQL,
         Node.js & PostgreSQL
