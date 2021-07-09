@@ -5,7 +5,7 @@ import { motion, useViewportScroll, useTransform } from "framer-motion";
 
 import { Project } from "../components/project";
 import { Position } from "../components/position";
-import { Experiment } from "../components/experiment";
+import { Fun } from "../components/fun";
 
 const Home: NextPage = () => {
   const { scrollYProgress } = useViewportScroll();
@@ -20,7 +20,7 @@ const Home: NextPage = () => {
           name="description"
           content="Simon Bel - Innovation & Tech Enthusiast"
         />
-        <script async src="https://cdn.splitbee.io/sb.js"></script>
+        {/* <script async src="https://cdn.splitbee.io/sb.js"></script> */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -209,18 +209,24 @@ const Home: NextPage = () => {
       <div className="inline-block w-full max-w-full overflow-hidden align-middle border-b border-gray-200 shadow sm:rounded-lg last:border-b-0">
         <table className="w-full">
           <tbody className="bg-white">
-            <Experiment
+            <Fun
               experiment="Daily Fact Bot"
               description="A simple SMS-powered app that sends users a random fact through API, daily."
               url=""
               tech="Node.JS + Firebase + Twilio"
-            />  
+            /> 
+            <Fun
+              experiment="AI-Question Generator"
+              description="An AI-powered web app (GPT-3) that creates tailored questions for your interviewer"
+              url="https://www.linkedin.com/feed/update/urn:li:activity:6810290234232844288/"
+              tech="Next.JS + OpenAI + Heroku"
+            /> 
           </tbody>
         </table>  
       </div>
       <h2 className="mt-8 mb-3 text-2xl font-bold">Contact</h2>
       <div className="text-base text-gray-900">
-        If you are interested in reaching out to me just drop me a short mail at{" "}
+        If you are interested in reaching out to me just drop me a quick mail at{" "}
         <b>simonpierrebel@gmail.com</b>
       </div>
       <div className="flex justify-center mt-8 mb-5 font-medium text-gray-600">
