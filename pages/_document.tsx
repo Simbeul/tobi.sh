@@ -5,11 +5,11 @@ export default class DefaultDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <script
+          {/* <script
             defer
             src="https://static.cloudflareinsights.com/beacon.min.js"
             data-cf-beacon='{"token": "70eb6fd2c3fc491fbb0196db6b00ab55"}'
-          ></script>
+          ></script> */}
         </Head>
         <body>
           <Main />

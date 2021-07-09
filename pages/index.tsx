@@ -64,14 +64,14 @@ const Home: NextPage = () => {
       >
         <Project
           name="Stick It"
-          color="#4EE0A7"
+          color="#4CEBAD"
           url="https://www.stickitapp.io/"
           style={{ scale }}
           description="Sticky Habits is an app that pairs with Habit Stickers to help you build lasting habits."
           logo={
             <img
               className="w-16 transition-transform duration-500 transform group-hover:scale-110"
-              src="/logo.svg"
+              src="/stickit.png"
             />
           }
           tags={
@@ -92,12 +92,12 @@ const Home: NextPage = () => {
           name="Quill"
           url="https://apps.apple.com/ca/app/quill-one-poem-a-day/id1547047768"
           style={{ scale }}
-          color="#323232"
+          color="#353535"
           description="An IOS app that keeps you inspired by sending you one poem a day."
           logo={
             <img
               className="w-16 transition-transform duration-500 transform group-hover:scale-110"
-              src="/upclimb.svg"
+              src="/quill.png"
             />
           }
           tags={
@@ -115,12 +115,12 @@ const Home: NextPage = () => {
           name="Filio Studio"
           url="https://filio.studio/"
           style={{ scale }}
-          color="#5F75FF"
+          color="#687DFF"
           description="A Design & Consultancy Studio. We help founders create their dream products."
           logo={
             <img
               className="w-16 transition-transform duration-500 transform group-hover:scale-110"
-              src="/lisk_hub.png"
+              src="/filio.png"
             />
           }
           tags={
@@ -152,8 +152,8 @@ const Home: NextPage = () => {
               logo={
                 <img
                   className="w-10 h-10"
-                  src={`/tobiaslins.svg`}
-                  alt="Tobias Lins logo"
+                  src={`/accenture.png`}
+                  alt="Accenture logo"
                 />
               }
             />
@@ -167,8 +167,8 @@ const Home: NextPage = () => {
               logo={
                 <img
                   className="w-10 h-10"
-                  src={`/dcodeit.png`}
-                  alt="d:code:it logo"
+                  src={`/autodesk.png`}
+                  alt="Autodesk logo"
                 />
               }
             />
@@ -182,8 +182,8 @@ const Home: NextPage = () => {
               logo={
                 <img
                   className="w-10"
-                  src={`/mpay24.svg`}
-                  alt="d:code:it logo"
+                  src={`/cossette.png`}
+                  alt="Cossette logo"
                 />
               }
             />
@@ -197,8 +197,8 @@ const Home: NextPage = () => {
               logo={
                 <img
                   className="w-10"
-                  src={`/mpay24.svg`}
-                  alt="d:code:it logo"
+                  src={`/busbud.png`}
+                  alt="Busbud logo"
                 />
               }
             />
@@ -220,6 +220,12 @@ const Home: NextPage = () => {
               description="An AI-powered web app (GPT-3) that creates tailored questions for your interviewer"
               url="https://www.linkedin.com/feed/update/urn:li:activity:6810290234232844288/"
               tech="Next.JS + OpenAI + Heroku"
+            />
+            <Fun
+              experiment="My Personal Site"
+              description="This is my first React project. Cloned from an Open Source project found on GitHub."
+              url=""
+              tech="React + Tailwind + Vercel"
             /> 
           </tbody>
         </table>  
@@ -238,14 +244,6 @@ const Home: NextPage = () => {
         >
           LinkedIn
         </a>
-        {/* <span className="mx-2 font-bold">·</span> */}
-        {/* <a
-          data-splitbee-event="Click Resume"
-          target="_blank"
-          href=""
-        >
-          Resume
-        </a> */}
         <span className="mx-2 font-bold">·</span>
         <a
           data-splitbee-event="Click Twitter"
