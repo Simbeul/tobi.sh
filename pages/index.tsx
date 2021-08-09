@@ -211,8 +211,8 @@ const Home: NextPage = () => {
           <tbody className="bg-white">
             <Fun
               experiment="Daily Fact Bot"
-              description="A simple SMS-powered app that sends users a random fact through API, daily."
-              url=""
+              description="A simple SMS-powered app that sends users a random fact through API, daily. Try it out!"
+              url="https://docs.google.com/forms/d/e/1FAIpQLSdvc_vuipS-SWhO0Wj-Qv1GqyB_nf8Ed5gJWLD9Dw3uLf5Bqw/viewform"
               tech="Node.JS + Firebase + Twilio"
             /> 
             <Fun
@@ -224,7 +224,7 @@ const Home: NextPage = () => {
             <Fun
               experiment="My Personal Site"
               description="This is my first React project. Cloned from an Open Source project found on GitHub."
-              url=""
+              url="https://www.simonbel.com/"
               tech="React + Tailwind + Vercel"
             /> 
           </tbody>

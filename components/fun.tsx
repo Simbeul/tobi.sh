@@ -7,7 +7,6 @@ export const Fun: React.FC<{
   tech: string;
 }> = ({ url, tech, experiment, description }) => {
   return (
-    // <a href={url}>
       <tr className="group bg-white hover:bg-gray-100 transform duration-150 border-b last:border-0">
         <td className="px-4 py-4 whitespace-no-wrap  border-gray-200">
           <div className="flex items-center">
@@ -37,6 +36,5 @@ export const Fun: React.FC<{
           </a>  
         </td>
       </tr>
-    // </a>
   );
 };

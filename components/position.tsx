@@ -13,7 +13,7 @@ export const Position: React.FC<{
     <tr className="bg-white hover:bg-gray-100 transform duration-150 border-b last:border-0">
       <td className="px-6 py-4 whitespace-no-wrap  border-gray-200">
         <div className="flex items-center">
-          <div className="flex-shrink-0 w-10">{logo}</div>
+          <div className="flex-shrink-0 object-cover w-10">{logo}</div>
           <div className="ml-4">
             <div className="text-sm leading-5 font-medium text-gray-900">
               {position}
