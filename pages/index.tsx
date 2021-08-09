@@ -42,7 +42,7 @@ const Home: NextPage = () => {
       </Head>
       <h1 className="text-4xl font-bold">Simon Bel</h1>
       <div className="mb-5 font-medium text-gray-600">
-      Hi 👋 I’m a recent business school undergraduate, passionate about Indy design and development. I like to learn about product growth and everything that has to do with launching a new product.
+      Hi 👋 I’m a recent business school undergraduate passionate about product, design and development.
       </div>
       <h2 className="mt-8 mb-3 text-2xl font-bold">Projects</h2>
       <motion.div
@@ -222,7 +222,7 @@ const Home: NextPage = () => {
               tech="Next.JS + OpenAI + Heroku"
             />
             <Fun
-              experiment="My Personal Site"
+              experiment="Personal Site"
               description="This is my first React project. Cloned from an Open Source project found on GitHub."
               url="https://www.simonbel.com/"
               tech="React + Tailwind + Vercel"
@@ -251,6 +251,14 @@ const Home: NextPage = () => {
           href="https://twitter.com/TheSimonBel"
         >
           Twitter
+        </a>
+        <span className="mx-2 font-bold">·</span>
+        <a
+          data-splitbee-event="Click Twitter"
+          target="_blank"
+          href="https://docs.google.com/document/d/1p2dodq1azJ3qUVzhz6gB-aOO_58kHbzbcApqg7Xm56k/edit?usp=sharing"
+        >
+          Resume
         </a>
       </div>
     </div>
