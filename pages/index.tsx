@@ -145,7 +145,7 @@ const Home: NextPage = () => {
             <Position
               company="Accenture"
               position="Consulting Analyst"
-              description="Working with clients to solve problems in sectors ranging from technology to strategy"
+              description="Helping clients tackle problems ranging from technology to strategy"
               url="https://www.accenture.com/ca-en"
               from="Sept. 2021"
               to="Present"
