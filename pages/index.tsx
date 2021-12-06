@@ -166,7 +166,7 @@ const Home: NextPage = () => {
               to="Aug. 2020"
               logo={
                 <img
-                  className="w-10 h-10"
+                  className="w-10"
                   src={`/accenture.png`}
                   alt="Accenture logo"
                 />
@@ -181,7 +181,7 @@ const Home: NextPage = () => {
               to="May 2020"
               logo={
                 <img
-                  className="w-10 h-10"
+                  className="w-10"
                   src={`/autodesk.png`}
                   alt="Autodesk logo"
                 />
