@@ -144,6 +144,21 @@ const Home: NextPage = () => {
           <tbody className="bg-white">
             <Position
               company="Accenture"
+              position="Consulting Analyst"
+              description="Working with clients to solve problems in sectors ranging from technology to strategy"
+              url="https://www.accenture.com/ca-en"
+              from="Sept. 2021"
+              to="Present"
+              logo={
+                <img
+                  className="w-10 h-10"
+                  src={`/accenture.png`}
+                  alt="Accenture logo"
+                />
+              }
+            />
+            <Position
+              company="Accenture"
               position="Strategy & Consulting Summer Analyst"
               description="Helping financial institutions integrate smart banking solutions"
               url="https://www.accenture.com/ca-en"
